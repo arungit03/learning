@@ -4,6 +4,7 @@ import Course from '../components/new'
 import react_image from '../src/assets/react.svg'
 import vite from '../src/assets/vite.svg'
 import boot from '../src/assets/hero.png'
+import Login from '../components/login'
 
 const App = () => {
   
@@ -60,10 +61,12 @@ const App = () => {
    {/* <button onClick={() =>{setValue(prev => prev-1)}}>-1</button> 
    <h1>{value}</h1>
    <button onClick={() =>{setValue(prev => prev+1)}}>+1</button> */}
-   
+{/*    
     <Course  price="$ 200" image={react_image}/>
     <Course course1="VITE" price="$ 400"  image={vite}/>
-    <Course course1="BOOT" price="$ 500"  image={boot}/>
+    <Course course1="BOOT" price="$ 500"  image={boot}/> */}
+
+    <Login />
     </>
   )
 }
